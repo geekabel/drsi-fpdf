@@ -1,7 +1,8 @@
 /vendor
 /tmp
 /.vscode
-
+# NetBeans
+nbproject/*
 # Visual Studio Code
 .vscode
 /composer.lock
