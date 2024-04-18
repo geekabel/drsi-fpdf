@@ -1,0 +1,7 @@
+/vendor
+/tmp
+/.vscode
+
+# Visual Studio Code
+.vscode
+/composer.lock

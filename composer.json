@@ -1,0 +1,34 @@
+{
+    "name": "drsi/drsi-fpdf",
+    "description": "Un wrapper de la librairie fpdf",
+    "type": "library",
+    "keywords": ["DrsiFpdf","pdf", "fpdf"],
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0",
+        "ext-mbstring": "*",
+        "setasign/fpdi": "@stable",
+        "setasign/fpdf": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "Drsi\\FPDF\\": "src/",
+            "FPDF\\Scripts\\": "scripts/"  
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Drsi\\FPDF\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Godwin K.",
+            "email": "koffigodwin96@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^11.1"
+    }
+}
