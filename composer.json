@@ -6,9 +6,7 @@
     "license": "MIT",
     "require": {
         "php": ">=8.0",
-        "ext-mbstring": "*",
-        "setasign/fpdi": "@stable",
-        "setasign/fpdf": "@stable"
+        "ext-mbstring": "*"
     },
     "autoload": {
         "psr-4": {
@@ -16,12 +14,10 @@
             "FPDF\\Scripts\\": "scripts/"  
         },
         "classmap": [
-            "fpdf/fpdf.php",
-            "vendor/setasign/fpdf/fpdf.php"
+            "fpdf/fpdf.php"
         ]
     },
     "suggest": {
-        "setasign/fpdi": "@stable",
         "spipu/html2pdf": "@stable"
     },
     "autoload-dev": {
@@ -37,7 +33,8 @@
     ],
     "minimum-stability": "stable",
     "require-dev": {
-        "phpunit/phpunit": "^11.1"
+        "phpunit/phpunit": "^11.1",
+        "setasign/fpdi": "@stable"
     },
     "extra": {
         "symfony": {
