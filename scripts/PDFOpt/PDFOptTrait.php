@@ -7,19 +7,20 @@ namespace FPDF\Scripts\PDFOpt;
 trait PDFOptTrait
 {
 
-    protected $AliasNbPages;
-    protected $pages;
-
     public function _putpages(): void
     {
         $nb = $this->page;
         if (!empty($this->AliasNbPages)) {
             // Replace number of pages
             for ($n = 1; $n <= $nb; $n++) {
-                if ($this->compress)
+                if ($this->compress){
+
                     $this->pages[$n] = gzcompress(str_replace($this->AliasNbPages, $nb, gzuncompress($this->pages[$n])));
-                else
+                }
+                else {
+
                     $this->pages[$n] = str_replace($this->AliasNbPages, $nb, $this->pages[$n]);
+                }
             }
         }
         // if ($this->DefOrientation == 'P') {
