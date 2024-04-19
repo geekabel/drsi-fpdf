@@ -14,7 +14,10 @@
         "psr-4": {
             "Drsi\\FPDF\\": "src/",
             "FPDF\\Scripts\\": "scripts/"  
-        }
+        },
+        "classmap": [
+            "fpdf/fpdf.php"
+        ]
     },
     "suggest": {
         "setasign/fpdi": "@stable",
@@ -34,5 +37,13 @@
     "minimum-stability": "stable",
     "require-dev": {
         "phpunit/phpunit": "^11.1"
+    },
+    "extra": {
+        "symfony": {
+            "aliases": {
+                "DrsiFPDF": "Drsi\\FPDF\\DrsiFPDF",
+                "DrsiPDFWrapper ": "Drsi\\FPDF\\PDFWrapper"
+            }
+        }
     }
 }
