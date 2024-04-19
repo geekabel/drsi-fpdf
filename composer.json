@@ -16,6 +16,10 @@
             "FPDF\\Scripts\\": "scripts/"  
         }
     },
+    "suggest": {
+        "setasign/fpdi": "@stable",
+        "spipu/html2pdf": "@stable"
+    },
     "autoload-dev": {
         "psr-4": {
             "Drsi\\FPDF\\Tests\\": "tests/"
@@ -24,7 +28,7 @@
     "authors": [
         {
             "name": "Godwin K.",
-            "email": "koffigodwin96@gmail.com"
+            "email": "devsgodwin@hotmail.com"
         }
     ],
     "minimum-stability": "stable",
