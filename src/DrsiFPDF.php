@@ -2,6 +2,7 @@
 declare(strict_types=1);
 
 namespace Drsi\FPDF;
+
 use Drsi\FPDF\Traits\FontsTrait;
 use FPDF\Scripts\PDFCode128\PDFCode128Trait;
 use FPDF\Scripts\PDFHtml\PDFHTMLTrait;
