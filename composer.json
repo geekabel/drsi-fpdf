@@ -16,7 +16,8 @@
             "FPDF\\Scripts\\": "scripts/"  
         },
         "classmap": [
-            "fpdf/fpdf.php"
+            "fpdf/fpdf.php",
+            "vendor/setasign/fpdf/fpdf.php"
         ]
     },
     "suggest": {
