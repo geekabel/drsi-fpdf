@@ -86,7 +86,7 @@ trait PDFOptTrait
         $this->_out('endobj');
     }
 
-    public function _endpage()
+    public function _endpage(): void
     {
         parent::_endpage();
         if ($this->compress)
