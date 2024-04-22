@@ -2,7 +2,7 @@
     "name": "drsi/drsi-fpdf",
     "description": "Un wrapper de la librairie fpdf",
     "type": "library",
-    "keywords": ["DrsiFpdf","pdf", "fpdf"],
+    "keywords": ["DrsiFPDF","pdf", "fpdf"],
     "license": "MIT",
     "authors": [
         {

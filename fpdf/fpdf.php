@@ -1557,7 +1557,7 @@ protected function _putpage($n)
 	$this->_put('endobj');
 	// Page content
 	if(!empty($this->AliasNbPages))
-		$this->pages[$n] = str_replace($this->AliasNbPages,$this->page,$this->pages[$n]);
+		$this->pages[$n] = gzcompress(str_replace($this->AliasNbPages, $this->page, gzuncompress($this->pages[$n]))); // Add gzcompress() 22/04
 	$this->_putstreamobject($this->pages[$n]);
 	// Link annotations
 	$this->_putlinks($n);
