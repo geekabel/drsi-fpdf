@@ -16,8 +16,7 @@ class DrsiFPDF extends PDFWrapper {
     use PDFCode128Trait;
     use PDFMemImageTrait;
     use RPDFTrait;
-		// TODO: Issue à resoudre
-    // use PDFOptTrait{ PDFOptTrait::_putpages as PDFOptTrait_putpages; PDFOptTrait::_endpage as PDFOptTrait_endpage;  }
+    // use PDFOptTrait  // TODO: Issue à resoudre
     use PDFHTMLTrait;
 
     protected function _putresources () {
