@@ -6,7 +6,9 @@ namespace Drsi\FPDF\Traits;
 
 use BadMethodCallException;
 use Closure;
-
+/**
+ * Docs: Lire le Readme correspondant
+ */
 trait PDFMacroableTrait
 {
 	/**
