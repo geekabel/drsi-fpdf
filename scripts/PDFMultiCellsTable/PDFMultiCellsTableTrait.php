@@ -1,7 +1,7 @@
 <?php
 	declare(strict_types=1);
 
-	namespace FPDF\Scripts\PDFMultiCellsTable;
+namespace FPDF\Scripts\PDFMultiCellsTable;
 	// http://www.fpdf.org/en/script/script3.php
 
 	trait PDFMultiCellsTableTrait {

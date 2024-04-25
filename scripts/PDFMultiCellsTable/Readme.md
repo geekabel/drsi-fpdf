@@ -1,4 +1,5 @@
 # PDFMultiCellsTableTrait
+
 ![GitHub license](https://img.shields.io/badge/license-FPDF-green)
 [![Author](https://img.shields.io/badge/author-Olivier-blue)](mailto:oliver@fpdf.org?subject=Table%20with%20MultiCells)
 
@@ -13,6 +14,7 @@ To do so, the height of the row must be known in advance; it is the maximum of t
 To know the height of a MultiCell, the NbLines() method is used: it returns the number of lines a MultiCell will occupy.
 
 ## Usage
+
 Public methods:
 
 ```php

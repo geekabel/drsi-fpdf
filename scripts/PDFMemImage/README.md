@@ -1,13 +1,14 @@
 # PDFMemImageTrait
 
-
 This trait allows to put images that are loaded in memory without the need of temporary files.
 
 There are two main uses:
-- When an image is loaded from a database 
+
+- When an image is loaded from a database
 - When an image is created with GD
 
 ## Usage
+
 When an image is loaded from a database:
 
 ```php
